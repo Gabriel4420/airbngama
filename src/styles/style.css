@@ -1,0 +1,169 @@
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+* {
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+div.jumbotron {
+    position: relative;
+    top: -15px;
+    text-align: center;
+    background-image: url("../assets/banner.png");
+
+    background-repeat: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+    color: green;
+    font-weight: bolder;
+    font-size: 25px;
+    overflow: hidden;
+
+}
+
+.pagination {
+    justify-content: center;
+    outline: none;
+    outline-style: none;
+    overflow: hidden;
+
+
+}
+
+button.page-link {
+    color: greenyellow;
+    background-color: green;
+    outline: none;
+    outline-style: none;
+    overflow: hidden;
+}
+
+button.page-link:hover {
+    color: green;
+    background-color: greenyellow;
+    outline: none;
+    outline-style: none;
+    overflow: hidden;
+}
+
+
+.group-cards {
+    background-color: rgb(56, 141, 45);
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    padding-top: 50px;
+}
+
+
+#email h3 {
+    color: black;
+    text-align: center;
+}
+
+
+.social-icons a:last-child {
+    margin-right: 0;
+
+}
+
+div#icone-airbnb {
+    position: relative;
+    left: -5px;
+    top: 165px;
+    color: #dc143c;
+}
+
+
+
+div#icone-airbnb i:hover {
+    color: green;
+    transition: all 0.9s;
+}
+
+
+.social-icons {
+    text-align: center;
+}
+
+div.social-icons a {
+    flex-direction: column-reverse;
+    color: black;
+}
+
+.social-icons,
+i#face:hover,
+i#linkedin:hover {
+    color: rgb(28, 112, 168);
+}
+
+.social-icons i#twitter:hover {
+    color: rgb(55, 175, 255);
+}
+
+.social-icons i#github:hover {
+    color: rgb(102, 16, 114);
+}
+
+@media only screen and (max-width: 600px) {
+    div.jumbotron {
+        text-align: left;
+    }
+
+    div#icone-airbnb {
+        display: none;
+    }
+
+    .nav-item:hover {
+        border: none;
+        color: white;
+        background-color: rgb(109, 109, 109);
+    }
+
+    a.nav-item {
+        text-align: center;    
+    }
+
+
+}
+
+@media only screen and (max-width: 999px) {
+    div#icone-airbnb {
+        display: none;
+    }
+
+    a.nav-item {
+        text-align: center;    
+    }
+
+    .nav-item:hover {
+        border: none;
+        color: white;
+        background-color: rgb(109, 109, 109);
+    }
+
+
+}
+
+nav.navbar {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.nav-item:hover{
+    border: 1px solid grey;
+    color: white;
+    background-color: rgb(109, 109, 109);
+    border-radius: 30px;
+    border-spacing: 10px;
+}
