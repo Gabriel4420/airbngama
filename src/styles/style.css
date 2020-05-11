@@ -7,6 +7,12 @@
 * {
     font-family: 'roboto', sans-serif;
     box-sizing: border-box;
+    
+}
+
+body{
+    margin:0px;
+    padding:0;
 }
 
 div.jumbotron {
